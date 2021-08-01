@@ -1,7 +1,7 @@
 {
   "name": "jsdoc-template",
-  "version": "3.4.0",
-  "description": "Braintree JSDoc 3 Template",
+  "version": "3.4.1",
+  "description": "Customizations to the Braintree JSDoc 3 Template",
   "main": "publish.js",
   "files": [
     "static",
@@ -18,9 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/braintree/jsdoc-template"
+    "url": "https://github.com/cdmgtri/jsdoc-template"
   },
-  "author": "Braintreeps <code@getbraintree.com>",
   "licenses": [
     {
       "type": "Apache-2.0",
@@ -28,12 +27,17 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/braintree/jsdoc-template"
+    "url": "https://github.com/cdmgtri/jsdoc-template"
   },
-  "homepage": "https://github.com/braintree/jsdoc-template",
+  "homepage": "https://github.com/cdmgtri/jsdoc-template",
   "devDependencies": {
-    "eslint": "^7.4.0",
+    "eslint": "^7.32.0",
     "eslint-config-braintree": "^4.0.0",
     "taffydb": "^2.7.3"
+  },
+  "dependencies": {
+    "jsdoc-tsimport-plugin": "^1.0.5",
+    "jsdoc-typeof-plugin": "^1.0.0",
+    "trash-cli": "^4.0.0"
   }
 }
